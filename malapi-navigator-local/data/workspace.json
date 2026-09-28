@@ -1,0 +1,422 @@
+{
+ "v": 1,
+ "updated": 1790639407730,
+ "activeId": "lmulwdngjfugm",
+ "order": [
+  "lmulwbwyb6rlf",
+  "lmulwdngjfugm"
+ ],
+ "weights": {
+  "Enumeration": 2,
+  "Injection": 5,
+  "Evasion": 4,
+  "Spying": 4,
+  "Internet": 3,
+  "Anti-Debugging": 4,
+  "Ransomware": 5,
+  "Helper": 1
+ },
+ "prefs": {
+  "sort": "score",
+  "colsByWeight": true,
+  "show": "marked",
+  "hiddenCols": [],
+  "dense": false,
+  "theme": "light",
+  "hideToolbar": true,
+  "hideLegend": true,
+  "hidePanel": true,
+  "exportVisibleOnly": false,
+  "svg": null
+ },
+ "layers": {
+  "lmulwbwyb6rlf": {
+   "id": "lmulwbwyb6rlf",
+   "name": "Capa 1",
+   "desc": "",
+   "sample": {
+    "name": "",
+    "hash": ""
+   },
+   "created": 1790639173523,
+   "updated": 1790639173523,
+   "source": "manual",
+   "gradient": {
+    "min": 0,
+    "max": 5,
+    "colors": [
+     "#f6e7b0",
+     "#eb9a45",
+     "#b3262e"
+    ]
+   },
+   "entries": {},
+   "unmatched": [],
+   "legend": []
+  },
+  "lmulwdngjfugm": {
+   "id": "lmulwdngjfugm",
+   "name": "office365",
+   "desc": "",
+   "sample": {
+    "name": "office365.exe",
+    "hash": "0c6946f47081341f0a5308fa38b2cf996c708d9ad6de1a23fb9e4cb89e1d08fc"
+   },
+   "created": 1790639254531,
+   "updated": 1790639254532,
+   "source": "import",
+   "gradient": {
+    "min": 0,
+    "max": 5,
+    "colors": [
+     "#f6e7b0",
+     "#eb9a45",
+     "#b3262e"
+    ]
+   },
+   "entries": {
+    "CreateToolhelp32Snapshot": {
+     "s": 4
+    },
+    "Sleep": {
+     "s": 4
+    },
+    "GetTempPathA": {
+     "s": 1,
+     "m": "Importada como GetTempPathW"
+    },
+    "CopyFileA": {
+     "s": 1
+    },
+    "GetFileAttributesA": {
+     "s": 2,
+     "m": "Importada como GetFileAttributesW"
+    },
+    "CreateFileA": {
+     "s": 1,
+     "m": "Importada como CreateFileW"
+    },
+    "LoadLibraryA": {
+     "s": 5
+    },
+    "GetVersionExA": {
+     "s": 2
+    },
+    "LockResource": {
+     "s": 4
+    },
+    "DeleteFileA": {
+     "s": 4,
+     "m": "Importada como DeleteFileW"
+    },
+    "Process32Next": {
+     "s": 5
+    },
+    "CreateThread": {
+     "s": 5
+    },
+    "GetWindowsDirectoryA": {
+     "s": 2
+    },
+    "LoadResource": {
+     "s": 4
+    },
+    "SetFileAttributesA": {
+     "s": 4
+    },
+    "GetProcAddress": {
+     "s": 5
+    },
+    "GetCurrentProcessId": {
+     "s": 2
+    },
+    "GetSystemTime": {
+     "s": 4
+    },
+    "IsWoW64Process": {
+     "s": 2,
+     "m": "Importada como IsWow64Process"
+    },
+    "GetComputerNameA": {
+     "s": 4
+    },
+    "lstrcatA": {
+     "s": 1
+    },
+    "HeapAlloc": {
+     "s": 5
+    },
+    "GetProcessHeap": {
+     "s": 5
+    },
+    "ReadFile": {
+     "s": 2
+    },
+    "FindClose": {
+     "s": 1
+    },
+    "GetSystemTimeAsFileTime": {
+     "s": 4
+    },
+    "QueryPerformanceCounter": {
+     "s": 4
+    },
+    "GetTickCount": {
+     "s": 4
+    },
+    "SetEnvironmentVariableA": {
+     "s": 4,
+     "m": "Importada como SetEnvironmentVariableW"
+    },
+    "GetModuleHandleA": {
+     "s": 5,
+     "m": "Importada como GetModuleHandleW"
+    },
+    "GetCurrentThreadId": {
+     "s": 2
+    },
+    "LocalAlloc": {
+     "s": 5
+    },
+    "WaitForSingleObject": {
+     "s": 5
+    },
+    "FindResourceA": {
+     "s": 1
+    },
+    "FindNextFileA": {
+     "s": 2,
+     "m": "Importada como FindNextFileW"
+    },
+    "TerminateProcess": {
+     "s": 1
+    },
+    "WriteFile": {
+     "s": 1
+    },
+    "GetCurrentProcess": {
+     "s": 2
+    },
+    "FindFirstFileA": {
+     "s": 2,
+     "m": "Importada como FindFirstFileW"
+    },
+    "Process32First": {
+     "s": 5
+    },
+    "HeapReAlloc": {
+     "s": 5
+    },
+    "EnumSystemLocalesA": {
+     "s": 5,
+     "m": "Importada como EnumSystemLocalesW"
+    },
+    "GetModuleFileNameA": {
+     "s": 1,
+     "m": "Importada como GetModuleFileNameW"
+    },
+    "SizeOfResource": {
+     "s": 4,
+     "m": "Importada como SizeofResource"
+    },
+    "LoadLibraryExA": {
+     "s": 5,
+     "m": "Importada como LoadLibraryExW"
+    },
+    "WaitForSingleObjectEx": {
+     "s": 5
+    },
+    "IsDebuggerPresent": {
+     "s": 4
+    },
+    "GetDC": {
+     "s": 4
+    },
+    "GetDesktopWindow": {
+     "s": 1
+    },
+    "BitBlt": {
+     "s": 4
+    },
+    "RegOpenKeyExA": {
+     "s": 1
+    },
+    "GetUserNameA": {
+     "s": 4
+    },
+    "RegCloseKey": {
+     "s": 1
+    },
+    "GetCurrentHwProfileA": {
+     "s": 2
+    },
+    "RegQueryValueExA": {
+     "s": 2
+    },
+    "RegEnumKeyExA": {
+     "s": 2
+    },
+    "ShellExecuteA": {
+     "s": 3
+    },
+    "Closesocket": {
+     "s": 3,
+     "m": "Importada como closesocket"
+    },
+    "WSAStartup": {
+     "s": 3
+    },
+    "Send": {
+     "s": 3,
+     "m": "Importada como send"
+    },
+    "Socket": {
+     "s": 3,
+     "m": "Importada como socket"
+    },
+    "Connect": {
+     "s": 3,
+     "m": "Importada como connect"
+    },
+    "Recv": {
+     "s": 3,
+     "m": "Importada como recv"
+    },
+    "WSACleanup": {
+     "s": 3
+    },
+    "CryptStringToBinary": {
+     "s": 5,
+     "m": "Importada como CryptStringToBinaryA"
+    }
+   },
+   "unmatched": [
+    "AcquireSRWLockExclusive",
+    "AreFileApisANSI",
+    "CharNextA",
+    "CloseHandle",
+    "CompareStringEx",
+    "CompareStringW",
+    "CreateCompatibleBitmap",
+    "CreateCompatibleDC",
+    "CreateDirectoryA",
+    "CreateEventW",
+    "CredEnumerateA",
+    "CredFree",
+    "CryptUnprotectData",
+    "DecodePointer",
+    "DeleteCriticalSection",
+    "DeleteObject",
+    "EncodePointer",
+    "EnterCriticalSection",
+    "EnumDisplayDevicesA",
+    "ExitProcess",
+    "FindFirstFileExW",
+    "FlushFileBuffers",
+    "FormatMessageA",
+    "FormatMessageW",
+    "FreeEnvironmentStringsW",
+    "FreeLibrary",
+    "FreeResource",
+    "GdipCreateBitmapFromHBITMAP",
+    "GdipDisposeImage",
+    "GdipGetImageEncoders",
+    "GdipGetImageEncodersSize",
+    "GdipSaveImageToFile",
+    "GdiplusShutdown",
+    "GdiplusStartup",
+    "GetACP",
+    "GetCPInfo",
+    "GetCommandLineA",
+    "GetCommandLineW",
+    "GetConsoleMode",
+    "GetConsoleOutputCP",
+    "GetDateFormatW",
+    "GetDiskFreeSpaceA",
+    "GetDiskFreeSpaceW",
+    "GetEnvironmentStringsW",
+    "GetFileAttributesExW",
+    "GetFileInformationByHandleEx",
+    "GetFileSize",
+    "GetFileSizeEx",
+    "GetFileType",
+    "GetFinalPathNameByHandleW",
+    "GetFullPathNameA",
+    "GetFullPathNameW",
+    "GetKeyboardLayoutList",
+    "GetLastError",
+    "GetLocalTime",
+    "GetLocaleInfoA",
+    "GetLocaleInfoEx",
+    "GetLocaleInfoW",
+    "GetModuleHandleExA",
+    "GetModuleHandleExW",
+    "GetOEMCP",
+    "GetPrivateProfileSectionNamesA",
+    "GetPrivateProfileStringA",
+    "GetStartupInfoW",
+    "GetStdHandle",
+    "GetStringTypeW",
+    "GetSystemInfo",
+    "GetSystemMetrics",
+    "GetTimeFormatW",
+    "GetTimeZoneInformation",
+    "GetUserDefaultLCID",
+    "GetUserDefaultLocaleName",
+    "GetVolumeInformationA",
+    "GetWindowRect",
+    "GlobalMemoryStatusEx",
+    "HeapFree",
+    "HeapSize",
+    "InitializeCriticalSection",
+    "InitializeCriticalSectionAndSpinCount",
+    "InitializeCriticalSectionEx",
+    "InitializeSListHead",
+    "InitializeSRWLock",
+    "IsProcessorFeaturePresent",
+    "IsValidCodePage",
+    "IsValidLocale",
+    "LCMapStringEx",
+    "LCMapStringW",
+    "LeaveCriticalSection",
+    "LocalFree",
+    "LockFile",
+    "LockFileEx",
+    "MultiByteToWideChar",
+    "RaiseException",
+    "ReadConsoleW",
+    "ReleaseDC",
+    "ReleaseSRWLockExclusive",
+    "RemoveDirectoryA",
+    "ResetEvent",
+    "RtlUnwind",
+    "SHGetFolderPathA",
+    "SelectObject",
+    "SetEndOfFile",
+    "SetEvent",
+    "SetFilePointer",
+    "SetFilePointerEx",
+    "SetLastError",
+    "SetStdHandle",
+    "SetUnhandledExceptionFilter",
+    "SetupDiEnumDeviceInfo",
+    "SetupDiEnumDeviceInterfaces",
+    "SetupDiGetClassDevsA",
+    "SetupDiGetDeviceInterfaceDetailA",
+    "SystemFunction036",
+    "TlsAlloc",
+    "TlsFree",
+    "TlsGetValue",
+    "TlsSetValue",
+    "TryAcquireSRWLockExclusive",
+    "TzSpecificLocalTimeToSystemTime",
+    "UnhandledExceptionFilter",
+    "UnlockFile",
+    "WSAGetLastError",
+    "WideCharToMultiByte",
+    "WriteConsoleW"
+   ],
+   "legend": []
+  }
+ }
+}

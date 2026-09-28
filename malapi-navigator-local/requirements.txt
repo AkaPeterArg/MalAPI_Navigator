@@ -1,0 +1,4 @@
+streamlit>=1.40
+pefile>=2023.2.7
+pandas>=2.0
+openpyxl>=3.1

@@ -1,0 +1,57 @@
+{
+ "v": 1,
+ "updated": 1790639173527,
+ "activeId": "lmulwbwyb6rlf",
+ "order": [
+  "lmulwbwyb6rlf"
+ ],
+ "weights": {
+  "Enumeration": 2,
+  "Injection": 5,
+  "Evasion": 4,
+  "Spying": 4,
+  "Internet": 3,
+  "Anti-Debugging": 4,
+  "Ransomware": 5,
+  "Helper": 1
+ },
+ "prefs": {
+  "sort": "score",
+  "colsByWeight": false,
+  "show": "all",
+  "hiddenCols": [],
+  "dense": false,
+  "theme": "auto",
+  "hideToolbar": false,
+  "hideLegend": false,
+  "hidePanel": false,
+  "exportVisibleOnly": false,
+  "svg": null
+ },
+ "layers": {
+  "lmulwbwyb6rlf": {
+   "id": "lmulwbwyb6rlf",
+   "name": "Capa 1",
+   "desc": "",
+   "sample": {
+    "name": "",
+    "hash": ""
+   },
+   "created": 1790639173523,
+   "updated": 1790639173523,
+   "source": "manual",
+   "gradient": {
+    "min": 0,
+    "max": 5,
+    "colors": [
+     "#f6e7b0",
+     "#eb9a45",
+     "#b3262e"
+    ]
+   },
+   "entries": {},
+   "unmatched": [],
+   "legend": []
+  }
+ }
+}
